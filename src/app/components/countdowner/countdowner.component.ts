@@ -19,7 +19,7 @@ export class CountdownerComponent {
     if (!this.timerControl.valid) {
       return;
     }
-    this.playSound('/assets/sounds/bing_bong.mp3');
+    this.playSound('assets/sounds/bing_bong.mp3');
     this.inprogress = true;
     const timeInSec = this.timerControl.value * 60;
     let timeleft = timeInSec;
@@ -30,7 +30,7 @@ export class CountdownerComponent {
       this.time = `${minutes}:${seconds}`;
       if (timeleft <= 0) {
         clearInterval(this.timeRef);
-        this.playSound('/assets/sounds/time_up.mp3');
+        this.playSound('assets/sounds/time_up.mp3');
         this.reset();
       }
       timeleft -= 1;
