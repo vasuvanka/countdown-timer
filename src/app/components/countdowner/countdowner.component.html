@@ -1,0 +1,23 @@
+<mat-card class="card">
+    <mat-card-content style="align-items: center;">
+        <mat-form-field *ngIf="!inprogress">
+            <mat-label>Time in minutes</mat-label>
+            <input matInput type="number" min="1" [formControl]="timerControl">
+            <button mat-button *ngIf="timerControl.value" matSuffix mat-icon-button aria-label="Clear" (click)="timerControl.setValue('')">
+              <mat-icon>close</mat-icon>
+            </button>
+            <mat-error>Invalid input,Please enter number</mat-error>
+          </mat-form-field>
+          <mat-progress-spinner *ngIf="inprogress" style="margin: auto;"
+          mode="determinate"
+          diameter="100"
+          strokeWidth="5"
+          [value]="percent">
+      </mat-progress-spinner>
+      <p *ngIf="inprogress" style="text-align: center; margin: -60px 0 60px 0;">{{time}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="start()" [disabled]="!timerControl.valid">Start</button>
+      <button mat-button (click)="reset()" [disabled]="!inprogress">Reset</button>
+    </mat-card-actions>
+  </mat-card>

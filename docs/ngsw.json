@@ -1,0 +1,96 @@
+{
+  "configVersion": 1,
+  "timestamp": 1602356009966,
+  "index": "/countdown-timer/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/countdown-timer/favicon.ico",
+        "/countdown-timer/index.html",
+        "/countdown-timer/main-es2015.c1d3e6d3ef2aa85d415b.js",
+        "/countdown-timer/main-es5.c1d3e6d3ef2aa85d415b.js",
+        "/countdown-timer/manifest.webmanifest",
+        "/countdown-timer/polyfills-es2015.f332a089ad1600448873.js",
+        "/countdown-timer/polyfills-es5.177e85a9724683782539.js",
+        "/countdown-timer/runtime-es2015.0dae8cbc97194c7caed4.js",
+        "/countdown-timer/runtime-es5.0dae8cbc97194c7caed4.js",
+        "/countdown-timer/styles.12ee2144ac95cdb646cd.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/countdown-timer/assets/icons/android-icon-144x144.png",
+        "/countdown-timer/assets/icons/android-icon-192x192.png",
+        "/countdown-timer/assets/icons/android-icon-36x36.png",
+        "/countdown-timer/assets/icons/android-icon-48x48.png",
+        "/countdown-timer/assets/icons/android-icon-72x72.png",
+        "/countdown-timer/assets/icons/android-icon-96x96.png",
+        "/countdown-timer/assets/icons/icon-128x128.png",
+        "/countdown-timer/assets/icons/icon-144x144.png",
+        "/countdown-timer/assets/icons/icon-152x152.png",
+        "/countdown-timer/assets/icons/icon-192x192.png",
+        "/countdown-timer/assets/icons/icon-384x384.png",
+        "/countdown-timer/assets/icons/icon-512x512.png",
+        "/countdown-timer/assets/icons/icon-72x72.png",
+        "/countdown-timer/assets/icons/icon-96x96.png",
+        "/countdown-timer/assets/sounds/bing_bong.mp3",
+        "/countdown-timer/assets/sounds/time_up.mp3"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/countdown-timer/assets/icons/android-icon-144x144.png": "caabcb05c7b3062783ebce6ba5ebd9bef9134343",
+    "/countdown-timer/assets/icons/android-icon-192x192.png": "6af18c0cd166b3ff6d575b09cb9314cb3d36fc7e",
+    "/countdown-timer/assets/icons/android-icon-36x36.png": "1ab5d13fdf00d17c8a18975c769fe8321f487941",
+    "/countdown-timer/assets/icons/android-icon-48x48.png": "5c34eb1d39136285a8aff46a600ad12bc5577380",
+    "/countdown-timer/assets/icons/android-icon-72x72.png": "030b84cd92afe8d5406771bb7367b95f9ed64f24",
+    "/countdown-timer/assets/icons/android-icon-96x96.png": "5b582a1870a10b21f41989110ce20c1944d54601",
+    "/countdown-timer/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/countdown-timer/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/countdown-timer/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/countdown-timer/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/countdown-timer/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/countdown-timer/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/countdown-timer/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/countdown-timer/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/countdown-timer/assets/sounds/bing_bong.mp3": "8c583fb4c1be48cd04d2113d58ae6479c7369f68",
+    "/countdown-timer/assets/sounds/time_up.mp3": "168513f4fe722526b2432893a8a966d2ba25694e",
+    "/countdown-timer/favicon.ico": "54caf5674cceacfb9a6cf778c859b5b506f96545",
+    "/countdown-timer/index.html": "1a7127a6b070f6e9eec0d8e6f98c99ed3d9a5d9e",
+    "/countdown-timer/main-es2015.c1d3e6d3ef2aa85d415b.js": "3dab110a9582bd0cd4e0cc26099dbf51436efa22",
+    "/countdown-timer/main-es5.c1d3e6d3ef2aa85d415b.js": "b209d6193a89b5482c95d33773b4bc9643940d1b",
+    "/countdown-timer/manifest.webmanifest": "018a8eb9473f3c3f89dedd1c143116701cd010b4",
+    "/countdown-timer/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/countdown-timer/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "/countdown-timer/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/countdown-timer/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/countdown-timer/styles.12ee2144ac95cdb646cd.css": "eb28e4ee46d071ea98084867f23ae9336ebf0449"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
