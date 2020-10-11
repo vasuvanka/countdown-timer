@@ -15,32 +15,32 @@ export class CountdownerComponent {
   time: string = '';
   constructor() { }
 
-  start() {
+  async start() {
     if (!this.timerControl.valid) {
       return;
     }
-    this.playSound('assets/sounds/bing_bong.mp3');
+    await this.playSound('assets/sounds/bing_bong.mp3');
     this.inprogress = true;
     const timeInSec = this.timerControl.value * 60;
     let timeleft = timeInSec;
-    this.timeRef = setInterval(() => {
+    this.timeRef = setInterval(async () => {
       this.percent = Math.round(100 - ((Math.round(timeleft) / timeInSec) * 100));
       let minutes = Math.floor(timeleft / 60);
       let seconds = Math.floor(timeleft % 60);
       this.time = `${minutes}:${seconds}`;
       if (timeleft <= 0) {
         clearInterval(this.timeRef);
-        this.playSound('assets/sounds/time_up.mp3');
+        await this.playSound('assets/sounds/time_up.mp3');
         this.reset();
       }
       timeleft -= 1;
     }, 1000);
   }
 
-  private playSound(location: string) {
+  private async playSound(location: string) {
     var audio = new Audio(location);
     audio.loop = false;
-    audio.play();
+    await audio.play();
   }
 
   reset() {
