@@ -3,6 +3,3 @@ mat-card-actions {
     flex-direction: row;
     justify-content: space-between;
 }
-mat-card {
-    max-width: 400px;
-}

@@ -1,4 +1,8 @@
 <mat-card class="card">
+  <button mat-icon-button (click)="muted =!muted" style="float: right;">
+    <mat-icon *ngIf="muted">volume_off</mat-icon>
+    <mat-icon *ngIf="!muted">volume_up</mat-icon>
+  </button>
     <mat-card-content style="align-items: center;">
         <mat-form-field *ngIf="!inprogress">
             <mat-label>Time in minutes</mat-label>
@@ -17,7 +21,7 @@
       <p *ngIf="inprogress" style="text-align: center; margin: -60px 0 60px 0;">{{time}}</p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button color="primary" (click)="start()" [disabled]="!timerControl.valid">Start</button>
+      <button mat-raised-button color="primary" (click)="start()" [disabled]="disableStart()">Start</button>
       <button mat-button (click)="reset()" [disabled]="!inprogress">Reset</button>
     </mat-card-actions>
   </mat-card>
