@@ -20,7 +20,7 @@ export class CountdownerComponent {
     if (!this.timerControl.valid) {
       return;
     }
-    await this.playSound('assets/sounds/init.mp3');
+    // await this.playSound('assets/sounds/init.mp3');
     this.inprogress = true;
     const timeInSec = this.timerControl.value * 60;
     let timeleft = timeInSec;
